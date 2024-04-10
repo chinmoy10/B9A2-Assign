@@ -32,6 +32,10 @@ nav{
     font-size: 2rem;
 }
 
+.navbar{
+    display: none;
+}
+
 .nav-items{
     display: flex;
     align-items: center;
@@ -117,5 +121,75 @@ nav{
 .search_btn{
     color: #ffffff;
     font-size: 1rem;
+}
 
+
+/* responsive mobile */
+@media screen and (max-width: 600px)  {
+
+    body{
+        margin: 50px 20px;
+    }
+
+    nav{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .navbar{
+        display: inline;
+    }
+
+    .fa-bars{
+        font-size: 1.5rem;
+    }
+
+    .navbar-items{
+        box-shadow: 1px 1px 3px #424247;
+        padding: 20px;
+        display: none;
+    }
+
+    .navbar:hover {
+        color: #FF5400;
+    }
+
+    .nav-items{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-items li{
+        margin: 0;
+    }
+
+    .banner-section{
+        flex-direction: column;
+    }
+
+    .banner_title{
+        font-size: 2.3rem;
+    }
+
+    .banner_description{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        padding: 15px;
+    }
+
+    .banner-search-field{
+        flex-direction: column;
+        width: 70%;
+    }
+
+    #Where_go,
+    #When,
+    #Select_Type,
+    .find_now_btn {
+        width: 100%;
+    }
+
+    .find_now_btn a {
+        justify-content: center;
+    }
 }
