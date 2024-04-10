@@ -47,3 +47,75 @@ nav{
     color: #424247;
     font-size: 1.125rem;
 }
+
+/* banner section */
+
+.banner-section{
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 0px;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner_title{
+    font-size: 4rem;
+}
+
+.banner_description{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding: 20px 100px;
+}
+
+.banner-search-field{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    padding: 16px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-search-field input{
+    font-size: 1rem;
+    border: 0;
+    border-radius: 10px;
+    padding: 16px;
+    outline: 0;
+}
+
+.find_now_btn{
+    background-color: #FF5400;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.find_now_btn a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa-magnifying-glass{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.search_btn{
+    color: #ffffff;
+    font-size: 1rem;
+
+}
