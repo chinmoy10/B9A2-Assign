@@ -251,6 +251,76 @@ nav{
     grid-row: 3/span 1;
 }
 
+/* choose items section */
+
+.choose-items-container{
+    margin-top: 100px;
+}
+
+.items-boxes{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.cards{
+    padding: 32px 55px 32px 32px;
+}
+
+.cards .fa-solid{
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+.cards h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.cards p{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #5A5A5D;
+}
+
+.cards-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    background-color: #fbb56510;
+    border: 1px solid #FBB56350;
+    border-radius: 16px;
+}
+
+.fa-hotel{
+    color: #f57a2894;
+}
+
+.cards-2{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+    background-color: #29CEF610;
+    border: 1px solid #29CEF650;
+    border-radius: 16px;
+}
+
+.fa-map-location-dot{
+    color: #29f6d494;
+}
+
+.cards-3{
+    grid-column: 4/span 6;
+    grid-row: 2/span 1;
+    background-color: #E9444410;
+    border: 1px solid #E9444450;
+    border-radius: 16px;
+}
+
+.fa-user-tag{
+    color: #ff202094;
+}
+
 /* mobile responsive */
 @media screen and (max-width: 600px)  {
 
@@ -333,7 +403,7 @@ nav{
     }
 
     .choose-destination-container{
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .img-container{
@@ -382,6 +452,35 @@ nav{
 
     .destination-description{
         margin: 20px 0px;
+    }
+
+    .choose-items-container{
+        margin-top: 30px;
+    }
+    
+    .items-boxes{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 15px;
+    }
+
+    .cards{
+        padding: 28px;
+    }
+
+    .cards-1{
+        grid-column: 1/span 1;;
+        grid-row: 1/span 1;
+    }
+
+    .cards-2{
+        grid-column: 1/span 1;;
+        grid-row: 2/span 1;
+    }
+
+    .cards-3{
+        grid-column: 1/span 1;;
+        grid-row: 3/span 1;
     }
 }
 
@@ -449,6 +548,10 @@ nav{
         height: auto;
     }
 
+    .choose-destination-container{
+        margin-top: 50px;
+    }
+
     .grid-items-1{
         grid-column: 1/span 6;
         grid-row: 1/span 1;
@@ -480,5 +583,33 @@ nav{
 
     .grid-places h3{
         font-size: 1.25rem;
+    }
+
+    .choose-items-container{
+        margin-top: 50px;
+    }
+
+    .items-boxes{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .cards{
+        padding: 28px;
+    }
+
+    .cards-1{
+        grid-column: 1/span 6;
+        grid-row: 1/span 1;
+    }
+
+    .cards-2{
+        grid-column: 7/span 6;
+        grid-row: 1/span 1;
+    }
+
+    .cards-3{
+        grid-column: 4/span 6;
+        grid-row: 2/span 1;
     }
 }
