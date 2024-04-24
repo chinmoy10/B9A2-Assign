@@ -582,6 +582,7 @@ hr{
     font-size: 1rem;
     color: #5A5A5D;
     padding: 16px 0px 33px;
+    text-align: center;
 }
 
 .social_media a{
@@ -601,6 +602,7 @@ hr{
 .footer_copyright{
     font-size: .8rem;
     color: #5A5A5D;
+    text-align: center;
 }
 
 /* mobile responsive */
