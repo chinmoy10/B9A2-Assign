@@ -836,7 +836,7 @@ hr{
         margin-top: 50px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, .7fr);
-        grid-gap: 0px;
+        grid-gap: 20px;
     }
     
     .newsletter-subscribe{
@@ -1036,7 +1036,7 @@ hr{
         margin-top: 50px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, .9fr);
-        grid-gap: 0px;
+        grid-gap: 20px;
     }
     
     .newsletter-subscribe{
